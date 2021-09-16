@@ -1,8 +1,11 @@
-/home/robot/IdeaProjects/guess-the-number-game/core/src/main/java/org/example/core/GameImpl.java
-/home/robot/IdeaProjects/guess-the-number-game/core/src/main/java/org/example/core/NumberGeneratorImpl.java
-/home/robot/IdeaProjects/guess-the-number-game/core/src/main/java/org/example/core/Game.java
-/home/robot/IdeaProjects/guess-the-number-game/core/src/main/java/org/example/core/config/AppConfig.java
-/home/robot/IdeaProjects/guess-the-number-game/core/src/main/java/org/example/core/MessageGeneratorImpl.java
-/home/robot/IdeaProjects/guess-the-number-game/core/src/main/java/org/example/core/MessageGenerator.java
-/home/robot/IdeaProjects/guess-the-number-game/core/src/main/java/org/example/core/NumberGenerator.java
-/home/robot/IdeaProjects/guess-the-number-game/core/src/main/java/org/example/core/config/GameConfig.java
+C:\code projects\spring-java\GuessTheNumberGame\core\src\main\java\org\example\core\MessageGenerator.java
+C:\code projects\spring-java\GuessTheNumberGame\core\src\main\java\org\example\core\config\AppConfig.java
+C:\code projects\spring-java\GuessTheNumberGame\core\src\main\java\org\example\core\Game.java
+C:\code projects\spring-java\GuessTheNumberGame\core\src\main\java\org\example\core\MessageGeneratorImpl.java
+C:\code projects\spring-java\GuessTheNumberGame\core\src\main\java\org\example\core\MinNumber.java
+C:\code projects\spring-java\GuessTheNumberGame\core\src\main\java\org\example\core\GameImpl.java
+C:\code projects\spring-java\GuessTheNumberGame\core\src\main\java\org\example\core\config\GameConfig.java
+C:\code projects\spring-java\GuessTheNumberGame\core\src\main\java\org\example\core\MaxNumber.java
+C:\code projects\spring-java\GuessTheNumberGame\core\src\main\java\org\example\core\GuessCount.java
+C:\code projects\spring-java\GuessTheNumberGame\core\src\main\java\org\example\core\NumberGenerator.java
+C:\code projects\spring-java\GuessTheNumberGame\core\src\main\java\org\example\core\NumberGeneratorImpl.java
