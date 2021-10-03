@@ -1,13 +1,16 @@
 package org.example.core;
 
+import lombok.AccessLevel;
+import lombok.Getter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.Random;
-
+@Getter
 @Component
 public class NumberGeneratorImpl implements NumberGenerator{
     // == fields ==
+    @Getter(AccessLevel.NONE)
     private final Random random = new Random();
 
     private final int maxNumber;
@@ -18,8 +21,6 @@ public class NumberGeneratorImpl implements NumberGenerator{
     public NumberGeneratorImpl(@MaxNumber int maxNumber, @MinNumber int minNumber) {
         this.maxNumber = maxNumber;
         this.minNumber = minNumber;
-
-        System.out.println("AAAAAAAAAAAAAAAAAAAAA" + getMinNumber());
     }
 
     // == public methods ==
@@ -29,15 +30,15 @@ public class NumberGeneratorImpl implements NumberGenerator{
         return random.nextInt((maxNumber - minNumber) + minNumber);
     }
 
-    @Override
-    public int getMaxNumber() {
-        return maxNumber;
-    }
-
-    @Override
-    public int getMinNumber() {
-        return minNumber;
-    }
+//    @Override
+//    public int getMaxNumber() {
+//        return maxNumber;
+//    }
+//
+//    @Override
+//    public int getMinNumber() {
+//        return minNumber;
+//    }
 
 
 }
